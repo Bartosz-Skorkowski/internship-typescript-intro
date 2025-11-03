@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    // Target modern JavaScript features for browser compatibility
+    "target": "ES2020",
+    // Use module type appropriate for modern browser environment
+    "module": "ES2020",
+    "moduleResolution": "node",
+    // Output directory for compiled files
+    "outDir": "./dist",
+    // Source directory
+    "rootDir": "./src",
+    // Enable strict type checking
+    "strict": true,
+    // Ensure all code paths return a value
+    "noImplicitReturns": true,
+    // Ensures property access is only allowed on defined properties
+    "noUncheckedIndexedAccess": true,
+    // Emit compiled JavaScript files
+    "noEmit": false,
+    // Generate source maps for debugging
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

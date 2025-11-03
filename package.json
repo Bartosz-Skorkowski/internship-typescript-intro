@@ -1,0 +1,20 @@
+{
+  "name": "typescript-tailwind-counter-template",
+  "version": "1.0.0",
+  "description": "A basic TypeScript and Tailwind CSS (CDN) project template.",
+  "main": "./dist/script.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "typescript",
+    "tailwind",
+    "template"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
